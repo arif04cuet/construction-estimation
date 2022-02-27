@@ -1,11 +1,18 @@
 <?php
 
-$url = parse_url(env("DATABASE_URL"));
+$host = '';
+$username = '';
+$password = '';
+$database = '';
 
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
+if (env('DB_CONNECTION') == 'pgsql') {
+    $url = parse_url(env("DATABASE_URL"));
+
+    $host = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $database = substr($url["path"], 1);
+}
 
 return [
 
