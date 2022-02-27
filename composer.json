@@ -35,7 +35,7 @@
         "source": "https://github.com/wintercms/winter"
     },
     "require": {
-        "php": "^7.2.9|^8.0",
+        "php": "7.4.28",
         "winter/storm": "~1.1.2",
         "winter/wn-system-module": "~1.1.2",
         "winter/wn-backend-module": "~1.1.2",
