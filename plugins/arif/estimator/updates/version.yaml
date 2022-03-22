@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table arif_estimator_companies'
+    - builder_table_create_arif_estimator_companies.php
+1.0.3:
+    - 'Updated table arif_estimator_companies'
+    - builder_table_update_arif_estimator_companies.php
+1.0.4:
+    - 'Updated table arif_estimator_companies'
+    - builder_table_update_arif_estimator_companies_2.php
+1.0.5:
+    - 'Created table arif_estimator_construction_typies'
+    - builder_table_create_arif_estimator_construction_typies.php
+1.0.6:
+    - 'Created table arif_estimator_suppliers'
+    - builder_table_create_arif_estimator_suppliers.php
+1.0.7:
+    - 'Updated table arif_estimator_suppliers'
+    - builder_table_update_arif_estimator_suppliers.php
+1.0.8:
+    - 'Created table arif_estimator_company_supplier'
+    - builder_table_create_arif_estimator_company_supplier.php
+1.0.9:
+    - 'add company_id to backend user table'
+    - migration_109.php
+1.0.10:
+    - 'Created table arif_estimator_projects'
+    - builder_table_create_arif_estimator_projects.php

@@ -1,0 +1,38 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        required: 1
+        type: text
+    address:
+        label: Address
+        size: ''
+        span: auto
+        required: 1
+        type: textarea
+    company_logo:
+        label: Logo
+        mode: image
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        imageWidth: '100'
+        imageHeight: '100'
+        type: fileupload
+    suppliers:
+        label: Suppliers
+        span: auto
+        path: suppliers
+        type: partial
+    owner_id:
+        label: Owner
+        span: auto
+        path: owner
+        type: partial
+    employees:
+        label: Employees
+        span: auto
+        path: employees
+        type: partial

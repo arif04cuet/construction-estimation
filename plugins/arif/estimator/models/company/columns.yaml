@@ -1,0 +1,18 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+    address:
+        label: address
+        type: text
+    owner:
+        label: owner
+        relation: owner
+        select: name
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

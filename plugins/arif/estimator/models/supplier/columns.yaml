@@ -1,0 +1,17 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    mobile:
+        label: mobile
+        type: text
+        searchable: true
+        sortable: false
+    address:
+        label: address
+        type: text
+    created_at:
+        label: created_at
+        type: datetime

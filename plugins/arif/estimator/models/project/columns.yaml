@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: name
+        type: text
+    address:
+        label: address
+        type: text
+    created_at:
+        label: created_at
+        type: datetime

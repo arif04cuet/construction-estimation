@@ -1,0 +1,51 @@
+plugin:
+    name: 'arif.estimator::lang.plugin.name'
+    description: 'arif.estimator::lang.plugin.description'
+    author: Arif
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    manage_company:
+        tab: 'arif.estimator::lang.plugin.name'
+        label: 'Manage Company'
+    manage_construction_type:
+        tab: 'arif.estimator::lang.plugin.name'
+        label: 'Manage Construction Type'
+    manage_supplier:
+        tab: 'arif.estimator::lang.plugin.name'
+        label: 'Manage Supplier'
+    manage_projects:
+        tab: 'arif.estimator::lang.plugin.name'
+        label: 'Manage Projects'
+    access_my_company:
+        tab: 'arif.estimator::lang.plugin.name'
+        label: 'Access My Company'
+navigation:
+    main-menu-item:
+        label: Companies
+        url: arif/estimator/companies
+        icon: icon-life-ring
+        permissions:
+            - manage_company
+        sideMenu:
+            main-menu-item:
+                label: Companies
+                url: arif/estimator/companies
+                icon: icon-sitemap
+                permissions:
+                    - manage_company
+            side-menu-item:
+                label: 'Construction Type'
+                url: arif/estimator/constructiontypes
+                icon: icon-sitemap
+                permissions:
+                    - manage_construction_type
+    main-menu-item2:
+        label: Estimator
+        url: arif/estimator/projects
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Projects
+                url: arif/estimator/projects
+                icon: icon-sitemap

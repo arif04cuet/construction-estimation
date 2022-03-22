@@ -1,0 +1,10 @@
+name: Projects
+form: $/arif/estimator/models/project/fields.yaml
+modelClass: Arif\Estimator\Models\Project
+defaultRedirect: arif/estimator/projects
+create:
+    redirect: 'arif/estimator/projects/update/:id'
+    redirectClose: arif/estimator/projects
+update:
+    redirect: arif/estimator/projects
+    redirectClose: arif/estimator/projects

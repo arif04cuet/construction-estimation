@@ -1,0 +1,10 @@
+name: Companies
+form: $/arif/estimator/models/company/fields.yaml
+modelClass: Arif\Estimator\Models\Company
+defaultRedirect: arif/estimator/companies
+create:
+    redirect: 'arif/estimator/companies/update/:id'
+    redirectClose: arif/estimator/companies
+update:
+    redirect: arif/estimator/companies
+    redirectClose: arif/estimator/companies

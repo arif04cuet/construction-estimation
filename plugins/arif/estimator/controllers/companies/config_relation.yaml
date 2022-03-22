@@ -1,0 +1,24 @@
+owner:
+  label: Owner
+  view:
+    form: ~/modules/backend/models/user/fields.yaml
+    toolbarButtons: create|link|unlink
+  manage:
+    form: ~/modules/backend/models/user/fields.yaml
+    list: ~/modules/backend/models/user/columns.yaml
+suppliers:
+  label: Supplier
+  view:
+    list: $/arif/estimator/models/supplier/columns.yaml
+    toolbarButtons: create|add|remove
+  manage:
+    list: $/arif/estimator/models/supplier/columns.yaml
+    form: $/arif/estimator/models/supplier/fields.yaml
+employees:
+  label: Employee
+  manage:
+    form: $/arif/estimator/models/user/fields.yaml
+    list: $/arif/estimator/models/user/columns.yaml
+  view:
+    list: $/arif/estimator/models/user/columns.yaml
+    toolbarButtons: create|delete

@@ -1,0 +1,10 @@
+name: ConstructionTypes
+form: $/arif/estimator/models/constructiontype/fields.yaml
+modelClass: Arif\Estimator\Models\ConstructionType
+defaultRedirect: arif/estimator/constructiontypes
+create:
+    redirect: 'arif/estimator/constructiontypes/update/:id'
+    redirectClose: arif/estimator/constructiontypes
+update:
+    redirect: arif/estimator/constructiontypes
+    redirectClose: arif/estimator/constructiontypes

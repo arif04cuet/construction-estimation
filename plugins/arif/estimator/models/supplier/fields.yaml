@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        required: 1
+        type: text
+    mobile:
+        label: Mobile
+        span: auto
+        required: 1
+        type: text
+    address:
+        label: Address
+        span: auto
+        size: ''
+        required: 1
+        type: textarea

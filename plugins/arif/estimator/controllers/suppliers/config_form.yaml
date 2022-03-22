@@ -1,0 +1,10 @@
+name: Suppliers
+form: $/arif/estimator/models/supplier/fields.yaml
+modelClass: Arif\Estimator\Models\Supplier
+defaultRedirect: arif/estimator/suppliers
+create:
+    redirect: 'arif/estimator/suppliers/update/:id'
+    redirectClose: arif/estimator/suppliers
+update:
+    redirect: arif/estimator/suppliers
+    redirectClose: arif/estimator/suppliers

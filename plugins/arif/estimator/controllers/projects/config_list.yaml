@@ -1,0 +1,12 @@
+list: $/arif/estimator/models/project/columns.yaml
+modelClass: Arif\Estimator\Models\Project
+title: Projects
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'arif/estimator/projects/update/:id'
